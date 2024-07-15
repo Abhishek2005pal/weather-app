@@ -41,23 +41,23 @@ async function checkWeather(city)
         switch(weather_data.weather[0].main)
         {
                 case 'Clouds':
-                 weather_img.src="https://source.unsplash.com/random/600×400?cloud";
+                 weather_img.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKFrwcf68XXJjhB3Dsc01nF2ogghbGpUe2RQ&s";
                 break;
 
                 case 'Haze':
-                 weather_img.src="https://source.unsplash.com/random/600×400?haze";
+                 weather_img.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThQdUHFnHaOq_U8issvUuaqLPyecDAswNj9g&s";
                 break;
 
                 case 'Rain':
-                 weather_img.src="https://source.unsplash.com/random/600×400?rains";
+                 weather_img.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRB4R2l09FV_e2uEE44jkq36ixdVk5Bz2gilg&s";
                 break;
 
                 case 'Snow':
-                 weather_img.src="https://source.unsplash.com/random/600×400?snow";
+                 weather_img.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVch9oEXSvMWH8d5nYPHlwN2V0kajQtn67Ew&s";
                 break;
 
                 case 'Mist':
-                 weather_img.src="https://source.unsplash.com/random/600×400?mist";
+                 weather_img.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTosgaTd3rme-Kh_eNx8FRyt1MnvbhDokS4aw&s";
                 break;
         }
        
